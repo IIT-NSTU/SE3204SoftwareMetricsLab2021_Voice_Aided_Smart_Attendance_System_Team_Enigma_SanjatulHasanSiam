@@ -1,8 +1,11 @@
 package com.TeamEnigma.Gui;
+import com.TeamEnigma.cognito.IdPassReader;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class Button_templete extends JFrame {
     public JButton  speak, attendSheet, login,submit;
@@ -12,6 +15,7 @@ public class Button_templete extends JFrame {
     private Font font;
     public JPasswordField Password;
     public JDialog jDialog;
+
 
     public void frame() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -71,9 +75,30 @@ public class Button_templete extends JFrame {
         submit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                AfterLogin afterLogin = new AfterLogin();
+
+                String id =  UserName.getText();
+                String password = Password.getText();
+                System.out.println(id+" "+password);
+
+                try {
+                  boolean result = IdPassReader.idPassChecker(id,password);
+                    System.out.println(result);
+                  if (result){
+                      AfterLogin afterLogin = new AfterLogin();
+                      afterLogin.setVisible(true);
+                      dispose();
+                  }
+                  else {
+                      JOptionPane.showMessageDialog(container,"Invalid ID Password");
+                  }
+
+                } catch (Exception Exception) {
+                   Exception.printStackTrace();
+                }
+
+               /* AfterLogin afterLogin = new AfterLogin();
                 afterLogin.setVisible(true);
-                dispose();
+                dispose();*/
             }
         });
 
@@ -91,5 +116,10 @@ public class Button_templete extends JFrame {
         container.add(passwordlabel);
 
     }
+
+    /*public static void main(String[] args) {
+        Button_templete b = new Button_templete();
+        b.setVisible(true);
+    }*/
 
 }

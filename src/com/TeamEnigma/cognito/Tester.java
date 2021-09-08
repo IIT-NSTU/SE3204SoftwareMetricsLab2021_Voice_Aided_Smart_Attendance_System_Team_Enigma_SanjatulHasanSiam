@@ -24,6 +24,7 @@ public class Tester {
                 String mPerson = null;
                 System.out.println("\n"+a);
                 for(File b:a.listFiles()){
+                    System.out.println(b.getPath());
                     VoicePrint print = reco.createVoicePrint(b.getName(), b);
                 }
                 List<MatchResult<String>> matches = reco.identify(tmp);

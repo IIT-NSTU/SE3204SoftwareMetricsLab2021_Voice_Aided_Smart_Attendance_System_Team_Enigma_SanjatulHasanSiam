@@ -15,6 +15,7 @@ public class MatchFrame extends Button_templete {
         super.container();
         super.setBounds(250, 180, 600, 600);
         Button_Listener();
+        checkAttendance=new CheckAttendance();
 
     }
     public void Button_Listener() {
@@ -35,7 +36,7 @@ public class MatchFrame extends Button_templete {
                     interruptedException.printStackTrace();
                 }
                 jDialog.setVisible(false);
-                attendSheet.setVisible(false);
+                //attendSheet.setVisible(false);
                 login.setVisible(false);
                 speak.setVisible(false);
                 Map<String,Double> result=tester.getFeq();
@@ -50,10 +51,8 @@ public class MatchFrame extends Button_templete {
                     }
                 }
 
-
                 UserName.setVisible(true);
                 display.setText("Result....");
-
             }
         });
 
@@ -72,6 +71,6 @@ public class MatchFrame extends Button_templete {
 
     public static void main(String[] args) {
         MatchFrame s = new MatchFrame();
-         s.setVisible(true);
+        s.setVisible(true);
     }
 }

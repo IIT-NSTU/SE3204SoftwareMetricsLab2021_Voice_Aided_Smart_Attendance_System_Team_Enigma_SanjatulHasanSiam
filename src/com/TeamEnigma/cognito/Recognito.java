@@ -103,7 +103,7 @@ public class Recognito<K> {
 
     public VoicePrint createVoicePrint(K userKey, File voiceSampleFile) 
             throws UnsupportedAudioFileException, IOException {
-        
+        System.out.println(voiceSampleFile.getPath());
         double[] audioSample = convertFileToDoubleArray(voiceSampleFile);
 
         return createVoicePrint(userKey, audioSample);

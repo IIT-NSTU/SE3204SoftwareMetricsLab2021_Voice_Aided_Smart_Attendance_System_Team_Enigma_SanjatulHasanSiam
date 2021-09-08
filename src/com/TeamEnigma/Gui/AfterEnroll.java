@@ -46,7 +46,7 @@ AfterEnroll(){
     speak1 = new JButton("Speak");
     speak1.setBounds(300,90,100,50);
     setLayout(null);
-    //speak1.setVisible(false);
+    speak1.setVisible(false);
     add(speak1);
 
     check.addActionListener(new ActionListener() {
@@ -90,9 +90,13 @@ AfterEnroll(){
                 System.out.println(file1.getPath());
                 System.out.println(file1.createNewFile());
                 InputStream inputStream=new FileInputStream(tmp);
-                byte[] data=inputStream.readAllBytes();
                 OutputStream outputStream=new FileOutputStream(file1);
-                outputStream.write(data);
+                int c;
+                while ((c=inputStream.read())!=-1){
+                    outputStream.write(c);
+                }
+                inputStream.close();
+                outputStream.close();
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
