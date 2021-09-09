@@ -8,18 +8,18 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class Button_templete extends JFrame {
-    public JButton  speak, attendSheet, login,submit;
+    public JButton  speak, attendSheet, login,submit,resultToHome;
     public JTextField UserName;
     public Container container ;
     public JLabel display,usernamelabel,passwordlabel;
-    private Font font;
+    private Font font,displayFont;
     public JPasswordField Password;
     public JDialog jDialog;
 
 
     public void frame() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(250, 180, 435, 355);
+        this.setBounds(450, 280, 435, 355);
         this.setResizable(false);
     }
 
@@ -40,12 +40,12 @@ public class Button_templete extends JFrame {
         jDialog.add(l);
         container.add(l);
 
-        font = new Font("Arial",Font.BOLD ,18 );
+        displayFont = new Font("Arial",Font.BOLD ,22 );
         display = new JLabel();
-        display.setBounds(40, 28, 500, 60);
-        display.setText("I am ok ,But this is not Good for health. I need more.You can join me.");
+        display.setBounds(160, 28, 500, 60);
+        display.setText("Welcome To Voice Recognition ");
         container.add(display);
-        display.setFont(font);
+        display.setFont(displayFont);
 
         speak = new JButton("Speak");
         speak.setBounds(130, 150, 93, 50);
@@ -59,6 +59,11 @@ public class Button_templete extends JFrame {
         UserName.setBounds(190, 350, 300, 45);
         UserName.setVisible(false);
         container.add(UserName);
+
+        resultToHome = new JButton("Home");
+        resultToHome.setBounds(150,400,100,40);
+        resultToHome.setVisible(false);
+        container.add(resultToHome);
 
         Password = new JPasswordField();
         Password.setBounds(190, 415, 300, 45);

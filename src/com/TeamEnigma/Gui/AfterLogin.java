@@ -44,11 +44,20 @@ AfterLogin(){
         }
     });
 
-
     modify = new JButton("modify");
     modify.setBounds(380,20,100,50);
     setLayout(null);
     add(modify);
+
+
+    modify.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            IdPassModifier idPassModifier = new IdPassModifier();
+            idPassModifier.setVisible(true);
+            dispose();
+        }
+    });
 
     home = new JButton("Home");
     home.setBounds(170,100,300,50);

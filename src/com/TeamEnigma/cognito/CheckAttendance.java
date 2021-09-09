@@ -87,9 +87,10 @@ public class CheckAttendance {
     }
 
     public static void main(String[] args) throws IOException {
-        //checkAttendance("ASH1925023M");
+
+       new  CheckAttendance().checkAttendance("ASH1925001M");
         // checkAttendance("ASH1925025M");
-        new CheckAttendance().checkAttendance("ASH1925024M");
+       // new CheckAttendance().checkAttendance("ASH1925024M");
 
     }
 }
