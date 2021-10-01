@@ -31,6 +31,7 @@ public class Button_templete extends JFrame {
     }
 
     public void Button_Method(){
+        font = new Font("Arial",Font.BOLD,17);
         jDialog = new JDialog();
         jDialog.setTitle("DialogBox");
         JLabel l = new JLabel("this is a dialog box");
@@ -57,6 +58,7 @@ public class Button_templete extends JFrame {
 
         UserName = new JTextField();
         UserName.setBounds(190, 350, 300, 45);
+        UserName.setFont(font);
         UserName.setVisible(false);
         container.add(UserName);
 

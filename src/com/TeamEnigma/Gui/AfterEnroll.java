@@ -1,5 +1,4 @@
 package com.TeamEnigma.Gui;
-
 import com.TeamEnigma.cognito.CreatingAttendanceSheets;
 import com.TeamEnigma.cognito.IdPassWritter;
 import com.TeamEnigma.cognito.Record;
@@ -16,7 +15,8 @@ public class AfterEnroll extends Button_templete {
     Button_templete button_templete;
     private JButton home, submit, speak1;
     private JLabel id, password;
-    private JTextField jTextField, passwordFeild;
+    private JTextField jTextField;
+    private JPasswordField passwordFeild;
     CreatingAttendanceSheets cas;
     private int count;
     Font font;
@@ -29,9 +29,13 @@ public class AfterEnroll extends Button_templete {
         count = 1;
         super.frame();
         super.setTitle("After login");
-        //super.container();
-        setBackground(new Color(128, 219, 219));
+        super.container();
+        super.setBackground(new Color(128, 219, 219));
         super.setBounds(250, 180, 600, 600);
+
+        speak.setVisible(false);
+        login.setVisible(false);
+        display.setVisible(false);
 
         id = new JLabel("Enter Your ID : ");
         id.setLayout(null);
@@ -48,12 +52,14 @@ public class AfterEnroll extends Button_templete {
 
         jTextField = new JTextField();
         jTextField.setLayout(null);
+        jTextField.setFont(font);
         jTextField.setBounds(170, 20, 250, 50);
         add(jTextField);
 
 
-        passwordFeild = new JTextField();
+        passwordFeild = new JPasswordField();
         passwordFeild.setLayout(null);
+        passwordFeild.setFont(font);
         passwordFeild.setBounds(170, 120, 250, 50);
         add(passwordFeild);
 
@@ -148,7 +154,6 @@ public class AfterEnroll extends Button_templete {
             }
         });
     }
-
 
     public static void main(String[] args) {
         AfterEnroll a = new AfterEnroll();
