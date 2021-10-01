@@ -114,7 +114,7 @@ public class IdPassModifier extends Button_templete {
                 dispose();
             }
         });
-
+    }
 
         submit.addActionListener(new ActionListener() {
             @Override

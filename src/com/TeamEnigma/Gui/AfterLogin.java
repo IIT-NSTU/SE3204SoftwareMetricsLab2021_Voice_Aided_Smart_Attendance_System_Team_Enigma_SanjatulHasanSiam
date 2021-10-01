@@ -130,6 +130,67 @@ public class AfterLogin extends Button_templete {
         setLayout(null);
         add(home);
 
+    home.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            MatchFrame m = new MatchFrame();
+            m.setVisible(true);
+            dispose();
+        }
+    });*/
+
+    }
+
+    public void initcomponent() {
+
+
+        enroll = new JButton("Enroll");
+        enroll.setBounds(135, 220, 100, 50);
+        setLayout(null);
+        add(enroll);
+
+        enroll.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AfterEnroll afterEnroll = new AfterEnroll();
+                afterEnroll.setVisible(true);
+                dispose();
+            }
+        });
+
+        sheet = new JButton("Sheet");
+        sheet.setBounds(250, 220, 100, 50);
+        setLayout(null);
+        add(sheet);
+        sheet.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Attendance a = new Attendance();
+                a.setVisible(true);
+                dispose();
+            }
+        });
+
+        reset = new JButton("Reset");
+        reset.setBounds(370, 220, 100, 50);
+        setLayout(null);
+        add(reset);
+
+
+        reset.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                IdPassModifier idPassModifier = new IdPassModifier();
+                idPassModifier.setVisible(true);
+                dispose();
+            }
+        });
+
+        home = new JButton("Home");
+        home.setBounds(160, 320, 300, 50);
+        setLayout(null);
+        add(home);
+
         home.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
