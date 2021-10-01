@@ -32,6 +32,7 @@ public class IdPassModifier extends Button_templete {
 
         initcompo();
     }
+
     public void initcompo() {
         userIdLabel = new JLabel("User ID  ");
         userIdLabel.setFont(font);
@@ -75,50 +76,11 @@ public class IdPassModifier extends Button_templete {
         submit.setBounds(270, 390, 100, 40);
         add(submit);
 
-        modify = new JButton("Submit");
-        modify.setFont(font);
-        modify.setBounds(270, 390, 100, 40);
-        setVisible(false);
-        add(modify);
-
-        modify.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String id, newPassWord, newIdPass;
-                id = userIdFeild.getText();
-                newPassWord = newPassWordFeild.getText();
-                //OldIdPass;
-                boolean isPassOk = Pattern.matches("[A-Z,0-9]{6}", newPassWord);
-                if (isPassOk) {
-                    newIdPass = id + " " + newPassWord;
-                    modifyPassWord.modifyPassWord(OldIdPass, newIdPass);
-                    JOptionPane.showMessageDialog(container, "Password changed");
-                }
-                else {
-                    JOptionPane.showMessageDialog(container, "At least 6 digit or letter");
-                }
-            }
-        });
-
-        gotoAfterLogin = new JButton("<--");
-        gotoAfterLogin.setFont(font);
-        gotoAfterLogin.setBounds(270, 440, 100, 40);
-        setVisible(false);
-        add(gotoAfterLogin);
-
-        gotoAfterLogin.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                AfterLogin a = new AfterLogin();
-                a.setVisible(true);
-                dispose();
-            }
-        });
-    }
 
         submit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 String userId;
                 userId = userIdFeild.getText();
                 oldPassWord = passWordFeild.getText();
@@ -143,9 +105,84 @@ public class IdPassModifier extends Button_templete {
                 } catch (IOException ioException) {
                     ioException.printStackTrace();
                 }
+
+
+            }
+        });
+
+        modify = new JButton("Submit");
+        modify.setFont(font);
+        modify.setBounds(270, 390, 100, 40);
+        setVisible(false);
+        add(modify);
+
+        modify.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String id, newPassWord, newIdPass;
+                id = userIdFeild.getText();
+                newPassWord = newPassWordFeild.getText();
+                //OldIdPass;
+                boolean isPassOk = Pattern.matches("[A-Z,0-9]{6}", newPassWord);
+                if (isPassOk) {
+                    newIdPass = id + " " + newPassWord;
+                    modifyPassWord.modifyPassWord(OldIdPass, newIdPass);
+                    JOptionPane.showMessageDialog(container, "Password changed");
+                } else {
+                    JOptionPane.showMessageDialog(container, "At least 6 digit or letter");
+                }
+            }
+        });
+
+        gotoAfterLogin = new JButton("<--");
+        gotoAfterLogin.setFont(font);
+        gotoAfterLogin.setBounds(270, 440, 100, 40);
+        setVisible(false);
+        add(gotoAfterLogin);
+
+        gotoAfterLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AfterLogin a = new AfterLogin();
+                a.setVisible(true);
+                dispose();
             }
         });
     }
+
+      /*  submit.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed (ActionEvent e){
+            String userId;
+            userId = userIdFeild.getText();
+            oldPassWord = passWordFeild.getText();
+            OldIdPass = userId + " " + oldPassWord;
+
+            System.out.println(OldIdPass);
+
+            try {
+                boolean idPassMatch = idCheck.checkOldIdPass(userId, oldPassWord);
+                System.out.println("IdPassMatch = " + idPassMatch);
+                if (idPassMatch) {
+                    System.out.println("Id pass match");
+                    newPassWordLabel.setVisible(true);
+                    newPassWordFeild.setVisible(true);
+                    passwordlabel.setVisible(false);
+                    passWordFeild.setVisible(false);
+                    modify.setVisible(true);
+                    submit.setVisible(false);
+                } else {
+                    JOptionPane.showMessageDialog(container, "Incorrect Id Password");
+                }
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+        }
+    });
+}
+*/
+
+
 
     public static void main(String[] args) {
         IdPassModifier idPassModifier = new IdPassModifier();

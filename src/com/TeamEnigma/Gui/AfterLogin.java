@@ -80,9 +80,7 @@ public class AfterLogin extends Button_templete {
 
     }
 
-    public void initcomponent() {
-
-
+   /* public void initcomponent() {
         enroll = new JButton("Enroll");
         enroll.setBounds(135, 220, 100, 50);
         setLayout(null);
@@ -137,13 +135,11 @@ public class AfterLogin extends Button_templete {
             m.setVisible(true);
             dispose();
         }
-    });*/
+    });
 
     }
-
+*/
     public void initcomponent() {
-
-
         enroll = new JButton("Enroll");
         enroll.setBounds(135, 220, 100, 50);
         setLayout(null);

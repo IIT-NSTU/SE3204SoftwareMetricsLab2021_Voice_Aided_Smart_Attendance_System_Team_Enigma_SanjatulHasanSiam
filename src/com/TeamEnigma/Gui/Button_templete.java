@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class Button_templete extends JFrame {
-    public JButton  speak, attendSheet, login,submit,resultToHome;
+    public JButton  speak, attendSheet, login,submit,resultToHome,confirmAttendance;
     public JTextField UserName;
     public Container container ;
     public JLabel display,usernamelabel,passwordlabel;
@@ -61,9 +61,14 @@ public class Button_templete extends JFrame {
         container.add(UserName);
 
         resultToHome = new JButton("Home");
-        resultToHome.setBounds(150,400,100,40);
+        resultToHome.setBounds(450,50,100,40);
         resultToHome.setVisible(false);
         container.add(resultToHome);
+
+        confirmAttendance = new JButton("Confirm");
+        confirmAttendance.setBounds(240,400,100,40);
+        confirmAttendance.setVisible(false);
+        container.add(confirmAttendance);
 
         Password = new JPasswordField();
         Password.setBounds(190, 415, 300, 45);
@@ -73,7 +78,6 @@ public class Button_templete extends JFrame {
 
         submit = new JButton("Submit");
         submit.setBounds(250, 480, 99, 51);
-       // submit.setText( "");
         submit.setVisible(false);
         container.add(submit);
 

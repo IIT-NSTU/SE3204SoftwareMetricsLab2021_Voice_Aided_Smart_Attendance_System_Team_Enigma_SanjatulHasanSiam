@@ -1,7 +1,6 @@
 package com.TeamEnigma.Gui;
 import com.TeamEnigma.cognito.CheckAttendance;
 import com.TeamEnigma.cognito.Tester;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,6 +12,7 @@ public class MatchFrame extends Button_templete {
     CheckAttendance checkAttendance;
     JLabel ShowingResult ;
     Font font;
+    String finalResult;
 
     MatchFrame(){
         font = new Font("Arial",Font.BOLD,18);
@@ -53,38 +53,31 @@ public class MatchFrame extends Button_templete {
                 login.setVisible(false);
                 speak.setVisible(false);
                 Map<String,Double> result=tester.getFeq();
-                //UserName.setText(tester.getResult());
-               // display.setText(tester.getResult());
-               // ShowingResult.setText(tester.getResult());
-                String finalResult = tester.getResult();
+
+                finalResult = tester.getResult();
                 System.out.println(finalResult);
+                ShowingResult.setVisible(true);
                 ShowingResult.setText(finalResult);
-                if(!finalResult.equals("No match")){
-                    try {
-                        new CheckAttendance().checkAttendance(finalResult);
-                    } catch (IOException ioException) {
-                        ioException.printStackTrace();
-                    }
-                }
-               // UserName.setVisible(true);
+                System.out.println("Final person is = "+finalResult);
+
                 display.setText("Result....");
                 resultToHome.setVisible(true);
+                if(!finalResult.equals("No match")){
+                  confirmAttendance.setVisible(true);
+                }
             }
         });
 
         resultToHome.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               // MatchFrame matchFrame = new MatchFrame();
-               // matchFrame.setVisible(true);
-               // dispose();
-                ShowingResult.setVisible(true);
-               // ShowingResult.setText("Result will be here");
                 speak.setVisible(true);
                 login.setVisible(true);
                 display.setText("Welcome to Voice Recognition");
                 UserName.setVisible(false);
                 resultToHome.setVisible(false);
+                ShowingResult.setVisible(false);
+                confirmAttendance.setVisible(false);
             }
         });
 
@@ -99,7 +92,20 @@ public class MatchFrame extends Button_templete {
                 passwordlabel.setVisible(true);
             }
         });
+
+        confirmAttendance.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    new CheckAttendance().checkAttendance(finalResult);
+                } catch (IOException ioException) {
+                    ioException.printStackTrace();
+                }
+            }
+        });
     }
+
+
 
     public static void main(String[] args) {
         MatchFrame s = new MatchFrame();
