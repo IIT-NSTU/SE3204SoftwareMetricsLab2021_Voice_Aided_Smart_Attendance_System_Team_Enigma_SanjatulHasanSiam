@@ -1,11 +1,11 @@
 package com.TeamEnigma.cognito;
 import java.io.*;
+
 public class ModifyPassWord {
 
     public static void modifyPassWord(String oldString, String newString) {
         File fileToBeModified = new File("ID.txt");
-
-        String oldContent = oldString;
+        String oldContent = "";
         BufferedReader reader = null;
         FileWriter writer = null;
         try {
@@ -14,12 +14,13 @@ public class ModifyPassWord {
             String line = reader.readLine();
             while (line != null) {
                 oldContent = oldContent + line + System.lineSeparator();
+
                 line = reader.readLine();
             }
             //Replacing oldString with newString in the oldContent
             String newContent = oldContent.replaceAll(oldString, newString);
             //Rewriting the input text file with newContent
-            writer = new FileWriter(fileToBeModified,false);
+            writer = new FileWriter(fileToBeModified);
             writer.write(newContent);
         } catch (IOException e) {
             e.printStackTrace();
@@ -34,9 +35,11 @@ public class ModifyPassWord {
         }
     }
 
+
     public static void main(String[] args) {
-       // ModifyPassWord m = new ModifyPassWord();
-        modifyPassWord("Admin 54321","Admin 12345");
+        // ModifyPassWord m = new ModifyPassWord();
+        //modifyPassWord("ASH1925002M 121212","ASH1925002M 123456");
+        // modifyPassWord("ASH1925002M 123456","ASH1925002M 121212");
     }
 }
 

@@ -28,27 +28,21 @@ public class Attendance extends JFrame {
     private JLabel id, attendance;
     private Font f;
     private JTextField jTextField;
-    private JComboBox month;
-    private JButton submit, home;
+    private JComboBox month, course;
+    private JButton submit, backButton;
     private JTextArea textArea;
-    IdCheck idCheck;
-    DisplayAttendance displayAttendance;
-    String monthNumber;
-    JTable jTable;
-    String[] colName;
-    String[][] data;
-    String filePath;
-    File file;
-    String studentID;//="ASH1925023M";
-    String selectedMonthNumber;// = "1";
+    String selectedMonthNumber;
+    private JScrollPane scrollTextArea;
 
     Attendance() {
-        super.setTitle("Attendance Sheet Frame");
+
+        super.setTitle("Attendance Sheet");
         super.setBounds(250, 180, 600, 600);
         change();
     }
 
     public void change() {
+
         f = new Font("Arial", Font.BOLD, 15);
         c = this.getContentPane();
         c.setBackground(new Color(128, 219, 219));
@@ -64,6 +58,26 @@ public class Attendance extends JFrame {
         jTextField.setBounds(180, 10, 200, 50);
         jTextField.setFont(f);
         c.add(jTextField);
+
+
+        textArea=new JTextArea();
+       // textArea.setBounds(50,270,470,270);
+        textArea.setVisible(true);
+        //textArea.setBackground(new Color(18, 171, 171));
+        textArea.setBackground(new Color(231, 231, 231, 255));
+        textArea.setEditable(false);
+        textArea.setFont(f);
+        c.add(textArea);
+
+
+        scrollTextArea=new JScrollPane(textArea);
+        scrollTextArea.setBounds(50,270,470,270);
+        scrollTextArea.setVisible(true);
+        c.add(scrollTextArea);
+
+
+
+
 
         HashMap map = new HashMap();
         map.put("1", "January");
@@ -86,6 +100,11 @@ public class Attendance extends JFrame {
         month.setBounds(400, 10, 150, 50);
         c.add(month);
 
+        String courses[] = {"CSE 2101", "CSE 2102", "CSE 2103", "CSE 2104"};
+        course = new JComboBox(courses);
+        course.setBounds(400, 80, 150, 40);
+        c.add(course);
+
         submit = new JButton();
         submit.setBounds(180, 80, 200, 40);
         submit.setText("Submit");
@@ -95,60 +114,73 @@ public class Attendance extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String studentID = jTextField.getText();
-                System.out.println("ID is = " + studentID);
-                String item = month.getSelectedItem().toString();
-                Iterator itr = map.entrySet().iterator();
-                while (itr.hasNext()) {
-                    //Converting to Map.Entry so that we can get key and value separately
-                    Map.Entry entry = (Map.Entry) itr.next();
-                    if (item == entry.getValue()) {
-                        selectedMonthNumber = (String) entry.getKey();
-                        System.out.println("Month Number is = " + selectedMonthNumber);
-                    }
-                }
 
-                /* --------------------------Checking ID is Correct or not---------------*/
-                boolean isIdOk = Pattern.matches("[A-Z]{3}[0-9]{7}[A-Z]{1}", studentID);
-                System.out.println("ID is Correct = " + isIdOk);
-                if (isIdOk) {
+                File file1 = new File("Courses/CSE 2101/" + studentID);
+                if (!file1.exists()) {
+
+                    JOptionPane.showMessageDialog(c, "ID not found");
+                }
+                else{
+                    System.out.println("ID is = " + studentID);
+                    String monthName = month.getSelectedItem().toString();
+                    Iterator itr = map.entrySet().iterator();
+                    while (itr.hasNext()) {
+                        //Converting to Map.Entry so that we can get key and value separately
+                        Map.Entry entry = (Map.Entry) itr.next();
+                        if (monthName == entry.getValue()) {
+                            selectedMonthNumber = (String) entry.getKey();
+                            System.out.println("Month Number is = " + selectedMonthNumber);
+                        }
+                    }
+                    String sCourse=course.getSelectedItem().toString();
+                    System.out.println("Code : "+sCourse);
+
+
+                    /* --------------------------Checking ID is Correct or not---------------*/
+                    boolean isIdOk = Pattern.matches("[A-Z]{3}[0-9]{7}[A-Z]{1}", studentID);
                     System.out.println("ID is Correct = " + isIdOk);
-                } else {
-                    JOptionPane.showMessageDialog(c, "Invalid ID");
+                    if (isIdOk) {
+                        System.out.println("ID is Correct = " + isIdOk);
+                    } else {
+                        JOptionPane.showMessageDialog(c, "Invalid ID");
+                    }
+
+                    /* ------------Opening The Text File in Editor-----------------*/
+                    try {
+                        String Sheet = studentID + selectedMonthNumber;
+                        String filePath = Sheet + ".txt";
+                        System.out.println(filePath);
+                        File file = new File("Courses" + "\\"+ sCourse+"\\"+ studentID + "\\" + filePath);
+                        System.out.println(file);
+
+                        try
+                        {
+                            FileReader reader = new FileReader(file );
+                            BufferedReader br = new BufferedReader(reader);
+                            textArea.read( br, null );
+                            br.close();
+                            textArea.requestFocus();
+                        }
+                        catch(Exception e2) { System.out.println(e2); }
+
+                    } catch (Exception exception) {
+                        exception.printStackTrace();
+                    }
                 }
 
-                /* ------------Opening The Text File in Editor-----------------*/
-                try {
-                    String Sheet = studentID + selectedMonthNumber;
-                    String filePath = Sheet + ".txt";
-                    System.out.println(filePath);
-                    File file = new File("DataBase" + "\\" + studentID + "\\" + filePath);
-                    System.out.println(file);
-                    if (!Desktop.isDesktopSupported()) {
-                        System.out.println("not supported");
-                        return;
-                    }
-                    Desktop desktop = Desktop.getDesktop();
-                    if (file.exists())
-                        desktop.open(file);
-                    else {
-                        System.out.println("File not Found");
-                        JOptionPane.showMessageDialog(c, "ID not Found");
-                    }
-                } catch (Exception exception) {
-                    exception.printStackTrace();
-                }
+
             }
         });
 
-        home = new JButton();
-        home.setBounds(400, 80, 150, 40);
-        home.setText("Home");
-        c.add(home);
-        home.addActionListener(new ActionListener() {
+        backButton = new JButton();
+        backButton.setBounds(400, 130, 150, 40);
+        backButton.setText("Back");
+        c.add(backButton);
+        backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                MatchFrame m = new MatchFrame();
-                m.setVisible(true);
+                AfterLogin afterLogin = new AfterLogin();
+                afterLogin.setVisible(true);
                 dispose();
             }
         });

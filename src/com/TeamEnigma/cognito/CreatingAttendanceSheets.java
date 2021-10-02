@@ -8,25 +8,34 @@ import java.time.LocalDate;
 import java.util.Date;
 
 public class CreatingAttendanceSheets {
+    /*
+    "CSE 2101", "CSE 2102", "CSE 2103", "CSE 2104"
+    */
+
     //Method for making a file with initial absent values of the given month
     public static void month(String id, String month, int mNumber) throws IOException {
         LocalDate date= LocalDate.of(2021,mNumber,1);
-        String filePath = "DataBase\\"+id;
-        File f=new File(filePath);
-        f.mkdirs();
-        FileWriter fw = new FileWriter(f.getPath()+ "\\" + id + mNumber + ".txt");
-        PrintWriter pw = new PrintWriter(fw);
-        String s;
-        String StudentId = "\nATTENDANCE SHEET OF  -->  "+id+"\n\n";
+       for (int k=1;k<=4;k++){
 
-        pw.println(StudentId);
-        for (int i = 1; i <= date.lengthOfMonth(); i++) {
-            s = String.format("%02d", i) + " " + month + " 2021 Absent";
-            pw.println(s);
-        }
-        pw.flush();
-        pw.close();
+           String filePath = "Courses\\CSE 210"+k+"\\"+id;
+           File file=new File(filePath);
+           file.mkdirs();
+           FileWriter fw = new FileWriter(file.getPath()+ "\\" + id + mNumber + ".txt");
+           PrintWriter pw = new PrintWriter(fw);
+           String s;
 
+           String courseId="\nCOURSE CODE : 210"+k;
+           pw.println(courseId);
+           String StudentId = "\n\nATTENDANCE SHEET OF  :  "+id+"\n\n";
+
+           pw.println(StudentId);
+           for (int i = 1; i <= date.lengthOfMonth(); i++) {
+               s = String.format("%02d", i) + " " + month + " 2021 Absent";
+               pw.println(s);
+           }
+           pw.flush();
+           pw.close();
+       }
 
     }
 
@@ -88,7 +97,9 @@ public class CreatingAttendanceSheets {
     public static void main(String[] args) throws IOException {
         //We have to call the attSheet method for each student
        // attSheet("ASH1925023M");
-        //attSheet("ASH1925014M");
+        attSheet("ASH1925013M");
+        attSheet("ASH1925014M");
+        attSheet("ASH1925023M");
 
 
     }

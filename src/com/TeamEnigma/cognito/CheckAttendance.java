@@ -8,14 +8,13 @@ import java.util.Date;
 public class CheckAttendance {
 
 
-    public  void checkAttendance(String ID) throws IOException {
+    public  void checkAttendance(String courseCode,String ID) throws IOException {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd MMMM yyyy");
         int monthNumber = LocalDate.now().getMonthValue();
         System.out.println(monthNumber);
         String monthnumber = String.valueOf(monthNumber);
-
-        String filePath = "DataBase" + "/" + ID + "/" + ID + monthnumber + ".txt";
+        String filePath = "Courses" + "/" +courseCode + "/"+ ID + "/" + ID + monthnumber + ".txt";
         System.out.println(filePath);
 
         //Checking Attendance
@@ -88,7 +87,7 @@ public class CheckAttendance {
 
     public static void main(String[] args) throws IOException {
 
-       new  CheckAttendance().checkAttendance("ASH1925001M");
+      // new  CheckAttendance().checkAttendance("CSE 2101","ASH1925013M");
         // checkAttendance("ASH1925025M");
        // new CheckAttendance().checkAttendance("ASH1925024M");
 
