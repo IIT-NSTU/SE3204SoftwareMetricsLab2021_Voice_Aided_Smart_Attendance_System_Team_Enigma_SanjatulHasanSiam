@@ -20,84 +20,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb9638f0-747a-45c2-97dd-41cac578c89a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SPL-Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPL-Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/StudentLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/TeacherEnroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/TeacherLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/TeacherPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/ASH1925001M/ASH1925001M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925022M/ASH1925022M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2101/ASH1925026M/ASH1925026M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925022M/ASH1925022M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2102/ASH1925026M/ASH1925026M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925022M/ASH1925022M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2103/ASH1925026M/ASH1925026M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925022M/ASH1925022M9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/CSE 2104/ASH1925026M/ASH1925026M9.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ID.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterEnroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterEnroll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/AfterLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/Button_templete$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/Button_templete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/Button_templete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/IdPassModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/Gui/MatchFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/cognito/ModifyPassWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/cognito/ModifyPassWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/cognito/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/TeamEnigma/cognito/Tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925007M.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set1/arnab.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set1/saurav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set1/siam.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set1/tahmid.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925007M.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set2/arnab.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set2/saurav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set2/siam.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set2/tahmid.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925007M.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set3/arnab.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set3/saurav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set3/siam.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set3/tahmid.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925007M.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set4/arnab.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set4/saurav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set4/siam.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set4/tahmid.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925007M.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set5/arnab.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set5/saurav.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set5/siam.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/set5/tahmid.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/AfterEnroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/AfterEnroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/AfterLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/AfterLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Attendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/Button_templete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/Button_templete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/GiveVoice$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/GiveVoice$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/MatchFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/OpenTextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/OpenTextFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/Gui/Rezx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/cognito/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPL-Project/com/TeamEnigma/cognito/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set1/ASH1925026M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set2/ASH1925026M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set3/ASH1925026M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set4/ASH1925026M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set5/ASH1925026M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set6/ASH1925014M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set6/ASH1925021M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set6/ASH1925022M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set6/ASH1925023M.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/set6/ASH1925026M.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Button_templete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Button_templete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/IdPassModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/IdPassModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/MatchFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/MatchFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/CheckAttendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/CheckAttendance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/CreatingAttendanceSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/CreatingAttendanceSheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/ModifyPassWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/ModifyPassWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/GiveVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/GiveVoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/MatchFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/OpenTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/OpenTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/Gui/Rezx.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TeamEnigma/cognito/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp.wav" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.wav" afterDir="false" />
     </list>
@@ -240,42 +302,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633157595641" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633224036444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1633224036444" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1633109617622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633109617622" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1633178785260">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1633250406112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633107023234" />
+    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633191157309" />
     <state width="1317" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.138.1360.728@1920.138.1360.728" timestamp="1633019534317" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633178785260" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1633178785258">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633250406112" />
+    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1633250406112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633107023233" />
+    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633191157309" />
     <state width="1317" height="144" key="GridCell.Tab.0.center/0.0.1536.824/1920.138.1360.728@1920.138.1360.728" timestamp="1633019534317" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633178785258" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1633178785257">
+    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633250406112" />
+    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1633250406112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633107023233" />
+    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633191157309" />
     <state width="1317" height="144" key="GridCell.Tab.0.left/0.0.1536.824/1920.138.1360.728@1920.138.1360.728" timestamp="1633019534317" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633178785257" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1633178785259">
+    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633250406112" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1633250406112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633107023234" />
+    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1633191157309" />
     <state width="1317" height="144" key="GridCell.Tab.0.right/0.0.1536.824/1920.138.1360.728@1920.138.1360.728" timestamp="1633019534317" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633178785259" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1633014787021">
+    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633250406112" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1633272647627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.138.1360.728@0.0.1536.824" timestamp="1631889709808" />
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633014787021" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633272647627" />
     <state x="360" y="0" key="new project wizard" timestamp="1633109620443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1633109620443" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1633249969648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1633249969648" />
   </component>
 </project>

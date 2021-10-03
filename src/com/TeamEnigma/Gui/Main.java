@@ -23,7 +23,7 @@ public class Main extends Button_templete{
         super.setBounds(250, 180, 600, 600);
         speak.setVisible(false);
         studentLogin.setVisible(false);
-
+        // For admin log In
         login = new JButton("Admin LogIn");
         login.setBounds(390, 150, 120, 50);
         container.add(login);

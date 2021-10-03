@@ -43,8 +43,8 @@ public class Button_templete extends JFrame {
 
         displayFont = new Font("Arial", Font.BOLD, 22);
         display = new JLabel();
-        display.setBounds(160, 28, 500, 60);
-        display.setText("Welcome To Voice Recognition ");
+        display.setBounds(80, 28, 500, 60);
+        display.setText("Voice Aided Smart Attendance System");
         container.add(display);
         display.setFont(displayFont);
 

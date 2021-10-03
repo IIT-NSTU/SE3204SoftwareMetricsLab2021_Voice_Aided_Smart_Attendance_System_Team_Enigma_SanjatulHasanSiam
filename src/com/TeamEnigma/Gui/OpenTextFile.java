@@ -6,7 +6,7 @@ import java.io.File;
 public class OpenTextFile {
     public static void main(String[] args)
     {
-        try
+    /*    try
         {
             File file = new File("E:\\table.txt");
             if(!Desktop.isDesktopSupported())
@@ -21,6 +21,6 @@ public class OpenTextFile {
         catch(Exception e)
         {
             e.printStackTrace();
-        }
+        }*/
     }
 }

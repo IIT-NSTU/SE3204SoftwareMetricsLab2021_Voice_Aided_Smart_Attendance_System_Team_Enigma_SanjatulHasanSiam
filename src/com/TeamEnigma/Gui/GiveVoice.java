@@ -53,8 +53,8 @@ GiveVoice(){
     home.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            MatchFrame m = new MatchFrame();
-            m.setVisible(true);
+            Main main = new Main();
+            main.setVisible(true);
             dispose();
         }
     });
